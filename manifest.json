@@ -1,0 +1,21 @@
+{
+    "name": "Internshala Extra",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Adds quality of life improvements to Internshala",
+    "homepage_url": "http://pradyumnarahul.me/InternshalaExtra/",
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": true
+    },
+    "browser_action": {
+      "default_title": "Internshala Extra"
+    },
+    "permissions": [
+      "webRequest",
+      "*://*.internshala.com/internships/*",
+      "tabs"
+    ]
+  }
